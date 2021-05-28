@@ -9,5 +9,6 @@ Web Application. Allows you to add comments and notes referring to the video tim
 
 Contacto/Contact
 assiz@invisiblesonido.com
+https://www.invisiblesonido.com/assiz
 
 

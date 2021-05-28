@@ -12,7 +12,7 @@
       <div class="d-flex flex-column flex-lg-row justify-content-around">
         <div  class="position-relative bg-secondary">
           <video id="videoPlayer" controls="controls" height="100%" width="100%"> 
-            <source src="Invisible Estudio - Logo - Version Final.mp4" type="video/mp4">
+            <source src="INVISIBLE.mp4" type="video/mp4">
           </video>
         </div>
 
@@ -21,7 +21,7 @@
       
           <input type="text" class="form-control my-3" v-model="comentario" v-on:keyup.enter="agregarTarea" >
           <button class="btn btn-primary" @click="agregarTarea">Añadir comentario</button>
-                    
+
 
           <div class="mt-3" v-for="(item, index) of tareas">
             <div role="alert" :class="['alert', item.condicion ? 'alert-success' : 'alert-danger']"> 
