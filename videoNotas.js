@@ -17,7 +17,7 @@ const app   = new Vue({
                     comentario: this.comentario,
                     condicion: false,
                     estado: 'pendiente',
-                    tc : this.dameTc(),
+                    tc : this.verTc(),
                     tcRaw: videoPlayer.currentTime
                 }); 
                 
@@ -45,7 +45,7 @@ const app   = new Vue({
         },
 
 
-        dameTc: function(){
+        verTc: function(){
             var x = document.getElementById("videoPlayer")
             var curmins = Math.floor(videoPlayer.currentTime / 60);
             var cursecs = Math.floor(videoPlayer.currentTime - curmins * 60);
