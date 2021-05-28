@@ -9,7 +9,6 @@ const app   = new Vue({
         
     },
 
-
     methods: {
         agregarTarea: function(){
             if (this.comentario != ''){
