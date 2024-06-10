@@ -7,9 +7,6 @@ Web Application. Allows you to add comments and notes referring to the video tim
 
 test: https://www.prueba.invisiblesonido.com
 
-
-Contacto/Contact
 assiz@invisiblesonido.com
-https://www.invisiblesonido.com/assiz
 
 
